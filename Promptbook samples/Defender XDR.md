@@ -2,9 +2,9 @@
 ![Security CoPilot Logo](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/ic_fluent_copilot_64_64%402x.png)  
 # Defender XDR インシデント調査
 
-**利用するプラグイン** : Microsoft Entra, Microsoft Intune,Natural language to KQL for Microsoft Defender XDR
+**利用するプラグイン** : Microsoft Defender XDR, Microsoft Intune
 
-**入力パラメータ**: UPN (ユーザー プリンシパル名) 
+**入力パラメータ**: DEFENDER_INCIDENT_ID (Defender XDRのインシデント番号）
 
 **概要**: Defender XDR が検出したインシデントを調査、調査結果をレポートにします。
 
