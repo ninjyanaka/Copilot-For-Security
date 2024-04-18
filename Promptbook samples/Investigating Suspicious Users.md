@@ -35,3 +35,6 @@
 ```
 潜在的にリスクのあるユーザに関する洞察をまとめたエグゼクティブ・レポートを作成します。まず、ユーザ・プリンシパル名（UPN）、出身国、設定されている認証方法、ログイン失敗の記録など、ユーザのメタデータの詳細を記載します。続いて、特定されたリスクに対処するために改善が必要な主要分野を箇条書きにする。その後、浮き彫りになった懸念を改善することを目的とした緩和策を、首尾一貫した段落にまとめます。
 ```
+
+イメージ
+![Promptbook Risky User](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Promptbook-suspcious%20user%20risk.png)
