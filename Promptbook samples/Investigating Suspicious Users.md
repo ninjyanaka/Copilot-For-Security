@@ -3,7 +3,7 @@
 
 **利用するプラグイン** : Microsoft Entra, Microsoft Intune,Natural language to KQL for Microsoft Defender XDR
 
-**入力パラメータ**: UPN
+**入力パラメータ**: UPN (ユーザー プリンシパル名) 
 
 **概要**: Identity Protection 機能等で検出した疑わしいユーザの調査を行い、分析結果のレポートを作成
 
