@@ -5,5 +5,10 @@ Microsoft Copilot for Security のプロンプトブックには、特定のセ�
 ここではSOCのオペレーションに役立つカスタムプロンプトブックを共有します。
 
 **ドキュメント**
-- [プロンプトブックを試す | Microsoft Learn](https://learn.microsoft.com/ja-jp/copilot/security/using-promptbooks))
+- [プロンプトブックを試す | Microsoft Learn](https://learn.microsoft.com/ja-jp/copilot/security/using-promptbooks)
 - [カスタムプロンプトブックの作成 | Microsoft Learn](https://learn.microsoft.com/ja-jp/copilot/security/build-promptbooks)
+
+**サンプルカスタムプロンプト**
+
+- [疑わしいユーザの分析 | Microsoft Learn](https://learn.microsoft.com/ja-jp/copilot/security/using-promptbooks)
+- [Defender XDRのインシデント分析 | Microsoft Learn](https://learn.microsoft.com/ja-jp/copilot/security/using-promptbooks)
