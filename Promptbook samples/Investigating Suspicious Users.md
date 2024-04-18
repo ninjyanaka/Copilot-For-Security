@@ -1,7 +1,7 @@
 ![Security CoPilot Logo](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/ic_fluent_copilot_64_64%402x.png)  
 # 疑わしいユーザーの分析
 
-**利用するプラグイン** : Microsoft Entra, Microsoft Intune
+**利用するプラグイン** : Microsoft Entra, Microsoft Intune,Natural language to KQL for Microsoft Defender XDR
 
 **入力パラメータ**: UPN
 
@@ -17,7 +17,7 @@
  ```
 3. ログイン履歴
  ```
-過去30日間にこのユーザーがログインに失敗した回数とその理由を教えてください。
+過去14日間にこのユーザーがログインに失敗した回数とその理由を教えてください。
  ```
 4. ユーザーが使用するデバイスのコンプライアンスをチェックする
 ```
