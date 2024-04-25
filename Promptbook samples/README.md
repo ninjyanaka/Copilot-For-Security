@@ -11,4 +11,4 @@ Microsoft Copilot for Security のプロンプトブックには、特定のセ�
 **サンプルカスタムプロンプト**
 
 - [1.| 疑わしいユーザの分析 ](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Investigating%20Suspicious%20Users.md)
-- [2.| Defender XDRのインシデント分析 ] (https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Defender%20XDR.md)
+- [2.| Defender XDRのインシデント分析 ](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Defender%20XDR.md)
