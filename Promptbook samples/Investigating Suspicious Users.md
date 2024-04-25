@@ -39,3 +39,5 @@
 イメージ
 
 ![Promptbook Risky User](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Promptbook-suspcious%20user%20risk.png)
+
+免責事項：これらはサンプルであり、変更される場合があります。
