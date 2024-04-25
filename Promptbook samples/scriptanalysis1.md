@@ -33,3 +33,5 @@ Microsoft Defender for Endpoint 製品等で検出したスクリプトの分析
 イメージ
 
 ![Promptbook Script Analysis1](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/scriptayalysis1.png)
+
+免責事項：これらはサンプルであり、変更される場合があります。
