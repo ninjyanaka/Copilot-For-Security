@@ -13,4 +13,4 @@
 &nbsp;
 ## ユーザー情報
 <a name="User Details"></a>
-- Who am i
+- 私のアカウント情報について教えて下さい
