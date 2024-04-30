@@ -6,7 +6,7 @@
 - [Entra](#entra)
   - [ユーザー情報](#user-details)
   - [監査ログ](#audit-logs)
-　- [サインインログ](#sign-in-logs)
+  - [サインインログ](#sign-in-logs)
   - [利用規約](terms-of-use-agreements)
 
 ***
