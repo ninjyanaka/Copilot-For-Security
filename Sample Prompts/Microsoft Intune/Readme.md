@@ -9,16 +9,17 @@ Documentation for  Micosoft Intune and Copilot for Security  can be found here :
 
 ## デバイス情報
 
-## Configuration and Policies
+
+## 構成とポリシー
 
 
-## User and Device Specific Queries
+## ユーザーとデバイス固有のクエリー
 
 
-## Application and Group Management
+## アプリケーションとグループ管理
 
 
-## Hardware and Compliance
+## ハードウェアとコンプライアンス
 
 
 
