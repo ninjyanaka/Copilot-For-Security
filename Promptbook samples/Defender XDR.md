@@ -45,7 +45,7 @@ Defender のインシデント <DEFENDER_INCIDENT_ID>について２００文字
 
 イメージ
 
-![Promptbook Defender XDR]()
+![Promptbook Defender XDR](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Defender%20XDR%20incident.png)
 
 
 
