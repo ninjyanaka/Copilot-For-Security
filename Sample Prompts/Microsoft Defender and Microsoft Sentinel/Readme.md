@@ -1,7 +1,7 @@
 ![Security CoPilot Logo](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/ic_fluent_copilot_64_64%402x.png)
 # Microsoft Copilot for Security Sample Prompt Library
 
-# Defender XDR のサンプルプロンプト
+# Defender XDR のサンプルプロンプト (#defender)
 
 - Defenderのインシデントについて要約を依頼
  ```
@@ -27,5 +27,11 @@ Defender のインシデント<INCIDENT ID>について、要約したエグゼ�
  ```
 インシデントに関連するエンティティを抽出します。
  ```
+
+
+&nbsp;
+[![alt text](../../Images/backtotop.svg)](#defender)
+
+&nbsp;
 
 **Disclaimer**: これらはサンプルであり、変更される場合があります。
