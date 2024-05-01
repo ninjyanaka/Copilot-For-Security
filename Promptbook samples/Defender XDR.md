@@ -47,8 +47,7 @@ Defender のインシデント <DEFENDER_INCIDENT_ID>について２００文字
 
 ![Promptbook Defender XDR]()
 
-&nbsp;
-[![alt text](../../Images/backtotop.svg)](#Defender)
+
 
 &nbsp;
 
