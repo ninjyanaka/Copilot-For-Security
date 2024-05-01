@@ -54,7 +54,7 @@
 
 ## Terms of Use Agreements
 
-- 利用規約一覧を表示する
+- このテナントにおけるユーザー**_`<UPN>`_**? の利用規約をすべてリストアップする
 
 &nbsp;
 [![alt text](../../Images/backtotop.svg)](#entra)
