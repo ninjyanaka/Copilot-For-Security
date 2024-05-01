@@ -36,7 +36,10 @@ Defender のインシデント <DEFENDER_INCIDENT_ID>について200文字で要
 この調査を要約したエグゼクティブ・レポートを書いてください。CISO向けのレポートです。概要、影響を受けるユーザー、デバイス情報、推奨される対応策、エグゼクティブサマリーを含めてください。。
 ```
 
+&nbsp;
+
 ## Microsoft Sentinel
+
  ```
 Sentinel のインシデント <SENTINEL_INCIDENT_ID>について200文字で要約してください。
  ```
