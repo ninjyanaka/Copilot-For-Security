@@ -58,3 +58,8 @@
 
 &nbsp;
 [![alt text](../../Images/backtotop.svg)](#entra)
+
+&nbsp;
+
+**Disclaimer**: 
+免責事項：これらはサンプルであり、変更される場合があります。
