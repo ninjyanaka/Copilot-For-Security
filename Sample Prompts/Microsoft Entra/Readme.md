@@ -102,7 +102,9 @@ Microsoft Entraのプラグインを使用して、<UPN> の監査ログを表�
 
 ## Terms of Use Agreements
 
-- このテナントにおけるユーザー**_`<UPN>`_**? の利用規約をすべてリストアップする
+```
+このテナントにおけるユーザー <UPN> の利用規約をすべてリストアップする
+```
 
 &nbsp;
 [![alt text](../../Images/backtotop.svg)](#entra)
