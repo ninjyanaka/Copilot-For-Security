@@ -43,6 +43,9 @@ Defender のインシデント <DEFENDER_INCIDENT_ID>について２００文字
 この調査を要約したエグゼクティブ・レポートを書いてください。CISO向けのレポートです。概要、影響を受けるユーザー、デバイス情報、推奨される対応策、エグゼクティブサマリーを含めてください。
 ```
 
+
+
+
 イメージ
 
 ![Promptbook Defender XDR](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Defender%20XDR%20incident.png)
