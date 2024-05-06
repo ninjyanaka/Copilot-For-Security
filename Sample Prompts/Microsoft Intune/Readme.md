@@ -8,9 +8,19 @@
 Documentation for  Micosoft Intune and Copilot for Security  can be found here : https://learn.microsoft.com/en-us/mem/intune/fundamentals/security-copilot
 
 ## デバイス情報
+ ```
+ユーザー<UPN>が使用しているデバイスについて教えて下さい
+ ```
 
+ ```
+デバイス<Device Name>について教えてください
+
+ ```
 
 ## 構成とポリシー
+ ```
+デバイス<Device Name>の設定ポリシーを教えてください。
+ ```
 
 
 ## ユーザーとデバイス固有のクエリー
