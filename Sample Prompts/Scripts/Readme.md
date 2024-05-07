@@ -27,6 +27,8 @@
 
 # Analyze a script or command 
 
+以下の手順で、自然言語を使用せずにスクリプトを貼り付けることで分析することが可能です。  
+
 1. プロンプトバーにあるスパークル アイコンを選択  
 2. Analyze a script or command を選択  
 3. スクリプトをペーストし、Enterキーを押す  
