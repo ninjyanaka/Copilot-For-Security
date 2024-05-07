@@ -27,7 +27,7 @@
 
 # Analyze a script or command 
 
-1．プロンプトバーにあるスパークル アイコンを選択  
+1. プロンプトバーにあるスパークル アイコンを選択  
 2. Analyze a script or command を選択  
 3. スクリプトをペーストし、Enterキーを押す  
 
