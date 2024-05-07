@@ -25,6 +25,14 @@
 このスクリプトから組織を守るための推奨事項を教えてください
 ```
 
+# Analyze a script or command 
+
+1．プロンプトバーにあるスパークル アイコンを選択
+2. Analyze a script or command を選択
+3. スクリプトをペーストし、Enterキーを押す
+
+
+
 &nbsp;
 
 **Disclaimer**: これらはサンプルであり、変更される場合があります。
