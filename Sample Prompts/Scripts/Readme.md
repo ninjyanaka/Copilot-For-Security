@@ -33,7 +33,7 @@
 2. Analyze a script or command を選択  
 3. スクリプトをペーストし、Enterキーを押す  
 
-![Analyze a script or command](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/Defender%20XDR%20incident.png)
+![Analyze a script or command](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Sample%20Prompts/Scripts/Analyze%20a%20script%20or%20command.png)
 
 &nbsp;
 
