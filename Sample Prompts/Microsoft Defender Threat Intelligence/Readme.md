@@ -29,7 +29,9 @@ CVE-XXXX-XXXXに関連する脅威インテリジェンスの記事や脅威ア�
 ```
 
 ## KQL Queries and Log Analysis
-
+```
+Microsoft Defenderの<Evilproxy>フィッシング攻撃から関連する公開IOCを検索するKQLの作成について教えてください。ドメイン、IPアドレス、ファイルハッシュのリストから検索できるようにし、アラートエビデンスからも検索できるようにしたいです。
+```
 ## Hardening and Prevention
 
 ## Indicators of Compromise (IOCs) and Tactics, Techniques, and Procedures (TTPs)
