@@ -11,7 +11,7 @@
 最近、どのような脅威アクターが活動しているのか？
 ```
 ```
-脅威アクター <Manatee Tempest>
+脅威アクター <Manatee Tempest>　のプロファイルを入手
 ```
 ```
 この脅威アクターに関連する脅威情報の記事があれば、リストと要約を提供し、リンクを含めてください。過去1週間分
@@ -33,8 +33,16 @@ CVE-XXXX-XXXXに関連する脅威インテリジェンスの記事や脅威ア�
 Microsoft Defenderの<Evilproxy>フィッシング攻撃から関連する公開IOCを検索するKQLの作成について教えてください。ドメイン、IPアドレス、ファイルハッシュのリストから検索できるようにし、アラートエビデンスからも検索できるようにしたいです。
 ```
 ## Hardening and Prevention
-
+```
+これらの攻撃を防ぐために、どのように環境を強化すればよいですか？
+```
 ## Indicators of Compromise (IOCs) and Tactics, Techniques, and Procedures (TTPs)
+```
+Social Media Accounts <T1585.001>の脅威情報記事を要約する
+```
+```
+上記の脅威アクターについて、脅威アクターにつき5つのインディケータを提示してください。
+```
 
 &nbsp;
 
