@@ -8,3 +8,7 @@ NL2KQLは自然言語（NL）をKusto Query Language（KQL）のクエリに変�
 - Security CopilotスタンドアロンおよびM365D埋め込み体験と統合
 - Defender Advanced Huntingテーブルおよび主要なSentinelデータテーブルをサポート
 
+
+```
+NL2KQL for Defender を使用して、先週、疑わしい、あるいは不可能な移動があった個人アカウントは？
+```
