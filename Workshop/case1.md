@@ -38,5 +38,5 @@ Script:powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $Error
 ## ハンズオンシナリオ➁　脅威インテリジェンス編
 
  ```
-私はセキュリティエンジニアです。攻撃アクターグループ Volt Typhoon　について教えて
+私はセキュリティエンジニアです。攻撃アクターグループ Volt Typhoon について教えて
  ```
