@@ -41,6 +41,8 @@ Script:powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $Error
 私はセキュリティエンジニアです。攻撃アクターグループ Volt Typhoon について教えて
  ```
 
+***
+&nbsp;
 ## ハンズオンシナリオ➂　Azure AI Search、ファイル
 Azure AI Search
 ```
