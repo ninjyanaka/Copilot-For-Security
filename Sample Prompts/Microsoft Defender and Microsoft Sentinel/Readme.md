@@ -6,10 +6,10 @@
 ## Defender XDR 
 
  ```
-Defender Incident <DEFENDER_INCIDENT_ID>について200文字で要約してください。
+Defender Incident <DEFENDER_INCIDENT_ID>について200文字で要約して
  ```
  ```
-このインシデントのエンティティについて教えて下さい。
+該当のインシデントのエンティティについて教えて
  ```
  ```
 そのインシデントのIPv4アドレスのレピュテーションスコアは？
