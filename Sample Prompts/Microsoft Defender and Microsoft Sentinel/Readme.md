@@ -6,7 +6,7 @@
 ## Defender XDR 
 
  ```
-Defender のインシデント <DEFENDER_INCIDENT_ID>について200文字で要約してください。
+Defender Incident <DEFENDER_INCIDENT_ID>について200文字で要約してください。
  ```
  ```
 このインシデントのエンティティについて教えて下さい。
