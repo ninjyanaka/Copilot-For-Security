@@ -1,6 +1,14 @@
 ![Security CoPilot Logo](https://github.com/ninjyanaka/Copilot-For-Security/blob/main/Promptbook%20samples/ic_fluent_copilot_64_64%402x.png)
 # Microsoft Copilot for Security Workshop
 
+
+https://securitycopilot.microsoft.com/
+
+ポータルサイト一覧：
+[Copilot for Security](https://securitycopilot.microsoft.com/)
+[Microsoft Defender XDR Portal](https://security.microsoft.com/)
+[Microsoft Purview Portal](https://purview.microsoft.com/)
+
 ***
 &nbsp;
 ## ハンズオンシナリオ➁ インシデント分析編
@@ -79,13 +87,26 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 プロンプト例：このプロンプトはWorkShop参加者の方のみ参照可能です。
 [サンプルプロンプト](https://securitycopilot.microsoft.com/sessions/c76f8825-73b2-4018-8e49-611485a0c309?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNmQ0YThmNGItYTcxMi00YjM0LWJjMjYtY2I3YTUzM2JiZDBjIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6ImM3NmY4ODI1LTczYjItNDAxOC04ZTQ5LTYxMTQ4NWEwYzMwOSIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI1MzE4NzEzLCJleHAiOjIwNDA4NTE1MTMsImlhdCI6MTcyNTMxODcxMywiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.M5sx7K6_e-P89EhEnBZzJFfAKWK-5En3jYs1bmCLHec)
 
+***
+&nbsp;
+## ハンズオンシナリオ➃　Defender XDR 
+組み込み型Defender XDRインシデント例：このアラートはWorkShop参加者の方のみ参照可能です。
+[サンプルインシデント](https://security.microsoft.com/incident2/29/overview?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46)
+
+***
+&nbsp;
+## ハンズオンシナリオ➃　脅威インテリジェンス
+脅威インテリジェンスの調査例：このアラートはWorkShop参加者の方のみ参照可能です。
+[サンプルIoC情報（ファイルハッシュ）](https://security.microsoft.com/intel-explorer/search/data/summary?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&query=93af6afb47f4c42bc0da3eedc6ecb9054134f4a47ef0add0d285404984011072)
+
+[サンプルIoC情報（ドメイン）](https://security.microsoft.com/intel-explorer/search/data/summary?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&query=12defense.accountand.ru)
 
 ***
 &nbsp;
 ## ハンズオンシナリオ➃　Entra
 
 ```
-
+N/A
 ```
 
 ***
