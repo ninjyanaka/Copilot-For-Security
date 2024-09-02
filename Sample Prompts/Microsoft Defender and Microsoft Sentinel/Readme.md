@@ -33,7 +33,7 @@ MDTIを使用して、IPv4アドレスのレピュテーションスコアは？
 ## Microsoft Sentinel
 
  ```
-Sentinel のインシデント <SENTINEL_INCIDENT_ID>について200文字で要約してください。
+Sentinel のインシデント <SENTINEL_INCIDENT_ID>について教えて
  ```
 
 
