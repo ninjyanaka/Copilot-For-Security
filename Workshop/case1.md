@@ -6,7 +6,7 @@
 ## ハンズオンシナリオ➁ インシデント分析編
 
  ```
-Microsoft Defender XDRから、優先すべき重大度の高いインシデントの上位5件を教えて。
+Microsoft Defender XDRから、優先すべき重大度の高いインシデントの上位5件を教えて
  ```
  ```
 Defender XDR Incident 50 について教えて
