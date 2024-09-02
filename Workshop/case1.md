@@ -6,7 +6,9 @@ https://securitycopilot.microsoft.com/
 
 ポータルサイト一覧：
 [Copilot for Security](https://securitycopilot.microsoft.com/)
+&nbsp;
 [Microsoft Defender XDR Portal](https://security.microsoft.com/)
+&nbsp;
 [Microsoft Purview Portal](https://purview.microsoft.com/)
 
 ***
