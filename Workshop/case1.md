@@ -101,6 +101,7 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 脅威インテリジェンスの調査例：このアラートはWorkShop参加者の方のみ参照可能です。
 [サンプルIoC情報（ファイルハッシュ）](https://security.microsoft.com/intel-explorer/search/data/summary?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&query=93af6afb47f4c42bc0da3eedc6ecb9054134f4a47ef0add0d285404984011072)
 
+プロンプト例：
 [サンプルIoC情報（ドメイン）](https://security.microsoft.com/intel-explorer/search/data/summary?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&query=12defense.accountand.ru)
 
 ***
@@ -108,8 +109,14 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 ## ハンズオンシナリオ➃　Entra
 
 ```
-N/A
+ユーザー test04@MngEnvMCAP616855.onmicrosoft.com について教えて
 ```
+```
+ユーザー test04@MngEnvMCAP616855.onmicrosoft.com に対してどのような認証方法が有効になっていますか？
+```
+
+プロンプト例：このプロンプトはWorkShop参加者の方のみ参照可能です。
+[サンプルプロンプト](https://securitycopilot.microsoft.com/sessions/42640117-6a57-454d-b448-ae044d8d33d7?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNmI0YWViY2UtNmU1NC00MDJmLWJiNGQtZWJmOTdlYjE0NDM5IiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjQyNjQwMTE3LTZhNTctNDU0ZC1iNDQ4LWFlMDQ0ZDhkMzNkNyIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI1MzIzMjIyLCJleHAiOjIwNDA4NTYwMjIsImlhdCI6MTcyNTMyMzIyMiwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.a7Sm1mjnIDPMeILqJfAvF99Wer_oGjeC7RwCBnkPgw4)
 
 ***
 &nbsp;
