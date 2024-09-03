@@ -109,10 +109,10 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 ## ハンズオンシナリオ➃　Entra
 
 ```
-ユーザー test04@MngEnvMCAP616855.onmicrosoft.com について教えて
+ユーザー test02@MngEnvMCAP616855.onmicrosoft.com について教えて
 ```
 ```
-ユーザー test04@MngEnvMCAP616855.onmicrosoft.com に対してどのような認証方法が有効になっていますか？
+ユーザー test02@MngEnvMCAP616855.onmicrosoft.com に対してどのような認証方法が有効になっていますか？
 ```
 ```
 NL2KQL for Sentinel を使用して,SigninLogsから "test02@mngenvmcap616855.onmicrosoft.com"のSign-in ログ見せて
