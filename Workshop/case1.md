@@ -77,30 +77,26 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 ***
 &nbsp;
 ## ハンズオンシナリオ➃　Defender XDR 
-組み込み型Defender XDRインシデント例：このアラートはWorkShop参加者の方のみ参照可能です。
-[サンプルインシデント](https://security.microsoft.com/incident2/29/overview?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46)
+
 
 ***
 &nbsp;
 ## ハンズオンシナリオ➃　脅威インテリジェンス
-脅威インテリジェンスの調査例：このアラートはWorkShop参加者の方のみ参照可能です。
-[サンプルIoC情報（ファイルハッシュ）](https://security.microsoft.com/intel-explorer/search/data/summary?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&query=93af6afb47f4c42bc0da3eedc6ecb9054134f4a47ef0add0d285404984011072)
 
-プロンプト例：
-[サンプルIoC情報（ドメイン）](https://security.microsoft.com/intel-explorer/search/data/summary?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&query=12defense.accountand.ru)
+
 
 ***
 &nbsp;
 ## ハンズオンシナリオ➃　Entra
 
 ```
-ユーザー test02@MngEnvMCAP616855.onmicrosoft.com について教えて
+ユーザー <UPN> について教えて
 ```
 ```
-ユーザー test02@MngEnvMCAP616855.onmicrosoft.com に対してどのような認証方法が有効になっていますか？
+ユーザー <UPN> に対してどのような認証方法が有効になっていますか？
 ```
 ```
-NL2KQL for Sentinel を使用して,SigninLogsから "test02@mngenvmcap616855.onmicrosoft.com"のSign-in ログ見せて
+NL2KQL for Sentinel を使用して,SigninLogsから "UPN" のSign-in ログ見せて
 ```
 
 
@@ -118,8 +114,6 @@ Microsoft Purview から、優先すべき重大度の高いアラートの上�
 調査結果をエグゼクティブ・レポートにまとめて
 ```
 
-組み込み型IRMアラート例：このアラートはWorkShop参加者の方のみ参照可能です。
-[サンプルアラート](https://purview.microsoft.com/insiderriskmgmt/alertspage/insiderriskmgmt/alertspage/review/219e3c66-8c3d-4b42-8b91-200edd7d15b7?tid=5a8651c4-c62f-41bd-ac00-c2c32ec7ae46&alertname=IRM-DL-1&alertviewid=summary)
 
 ***
 &nbsp;
