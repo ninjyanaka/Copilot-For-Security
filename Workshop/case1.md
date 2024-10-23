@@ -93,7 +93,7 @@ CVE-2024-3400について教えて
 
 ***
 &nbsp;
-## ハンズオンシナリオ➂　Azure AI Search、ファイル
+## ハンズオンシナリオ➂　ナレッジベース（Azure AI Search、ファイル）
 
 ファイル
 ```
@@ -102,9 +102,14 @@ CVE-2024-3400について教えて
  ```
 Query:A社利用のSW一覧 FileNames: AnswerInstructions:該当の脆弱性の対象のソフトウェアは含まれていますか？
  ```
- ```
 
- ```
+AI Search
+```
+Azure AI Search を使用して、インシデントの対応手順を教えて
+```
+```
+Azure AI Search を使用して、どのようなタイプのウィルスがあるか教えて
+```
 
 ***
 &nbsp;
