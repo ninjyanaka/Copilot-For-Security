@@ -94,7 +94,7 @@ Query:A社利用のSW一覧 FileNames: AnswerInstructions:該当の脆弱性の�
 
 その３
  ```
-私はセキュリティエンジニアです。攻撃アクターグループ Midnight Blezzard について教えて
+私はセキュリティエンジニアです。攻撃アクターグループ Midnight Blizzard について教えて
  ```
 
 ***
