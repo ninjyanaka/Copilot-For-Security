@@ -133,7 +133,7 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 このユーザーに関連付けられているデバイスは何ですか？
 ```
 ```
-ユーザー <UPN> に対してどのような認証方法が有効になっていますか？
+このユーザーに対してどのような認証方法が有効になっていますか？
 ```
 ```
 過去30日間のこのユーザーの直近のログインを教えて
@@ -262,3 +262,4 @@ What about the sender domain and return path email? Are these associated with an
 ```
 The above is research conducted by a security analyst to determine if an email is a phishing attempt. Summarise and share all steps of this research to determine if the email is a phishing email in Japanese. Share the confidence percentages: 0-30% if the email is not suspicious, 30%-74% if it is moderately suspicious and 75%-100% if it is highly suspicious.
 ```
+
