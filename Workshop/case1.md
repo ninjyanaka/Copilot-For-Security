@@ -22,7 +22,7 @@ Microsoft Defender XDRから、優先すべき重大度の高いインシデン�
 Defender XDR インシデント 70 について教えて
 ```
 ```
-Defender XDR インシデント 70 について300文字で要約して
+Defender XDR インシデント 70 について300文字で日本語で要約して
 ```
 ```
 このインシデントに関連するすべてのエンティティを特定し、抽出して
@@ -39,6 +39,7 @@ VirusTotal を使用して、このIPアドレス 101.35.198.64 のレピュテ�
 ```
 このインシデントから得られた主な洞察をまとめたエグゼクティブレポートを作成してください。レポートに続いて、特定されたリスクに対処するために修正が必要な主な領域を箇条書きでリストアップしてください。最後に、これらの懸念事項に対処するための緩和策の概要を説明してください。
 ```
+[Session link](https://securitycopilot.microsoft.com/sessions/cf3e1f76-9b48-4f3f-bae7-62bf60673b53?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiMTU3ZjkzMDItYTY4MC00NzczLWFiN2EtOWQ4OTcyNDY1M2ViIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6ImNmM2UxZjc2LTliNDgtNGYzZi1iYWU3LTYyYmY2MDY3M2I1MyIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYxOTg2LCJleHAiOjIwNDUxOTQ3ODYsImlhdCI6MTcyOTY2MTk4NiwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.12AlcahmELWfdooT9zJ8laDLKfq6Z2jSxXBz-1xCmKo)
 
 ***
 &nbsp;
@@ -141,27 +142,18 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 このユーザーに対してどのような認証方法が有効になっていますか？
 ```
 ```
-Entraを使用して、このユーザーの直近のログインを教えて
-```
-```
-Entraを使用して、このユーザーは過去30日間にサインインに失敗したことがありますか？ 
-```
-```
-Did the above user have any failed sign-ins the last 30 days?
-```
-```
-Purviewを使用して、このユーザーの活動を教えて
-```
-```
 このユーザーのIdentity Summaryを見せて
 ```
 ```
 NL2KQL for Sentinel を使用して,SigninLogsから "UPN" のSign-in ログ見せて
 ```
 ```
+Purviewを使用して、このユーザーの活動を教えて
+```
+```
 潜在的なリスクのあるユーザーに関する洞察をまとめたエグゼクティブレポートを作成します。まず、ユーザーのメタデータの詳細から始めます。これには、ユーザーのユーザー・プリンシパル名（UPN）、疑わしい国、設定された認証方法、日本語で記録されたログイン試行の失敗などが含まれます。次に、特定されたリスクに対処するために修正が必要な主な領域を箇条書きで示します。その後、日本語で、強調された懸念事項を改善するための緩和策を説明した一貫性のある段落を作成します
 ```
-
+[Session link](https://securitycopilot.microsoft.com/sessions/42640117-6a57-454d-b448-ae044d8d33d7?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNDU4MzIwZTEtYWRmYS00N2JlLWJiOTMtNjlmOTg2NDcwOTAyIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjQyNjQwMTE3LTZhNTctNDU0ZC1iNDQ4LWFlMDQ0ZDhkMzNkNyIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYxOTA0LCJleHAiOjIwNDUxOTQ3MDQsImlhdCI6MTcyOTY2MTkwNCwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.eKOXsBiQlk2-bdwnFwkqEvuEN8SdtLTlJ_l6VJSAnEw)
 
 ***
 &nbsp;
