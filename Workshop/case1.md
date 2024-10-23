@@ -141,16 +141,15 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 このユーザーに対してどのような認証方法が有効になっていますか？
 ```
 ```
-このユーザーの直近のログインを教えて
+Entraを使用して、このユーザーの直近のログインを教えて
 ```
 ```
-このユーザーは過去30日間にサインインに失敗したことがありますか？ 
+Entraを使用して、このユーザーは過去30日間にサインインに失敗したことがありますか？ 
 ```
 ```
-Did the above user have any failed sign-ins the last 30 days? if yes, list the location and IP Address of each failed sign-attempt.
+Did the above user have any failed sign-ins the last 30 days?
 ```
-```
-Purviewを使用して、このユーザーの活動を挙げてください。
+Purviewを使用して、このユーザーの活動を教えて
 ```
 ```
 このユーザーのIdentity Summaryを見せて
