@@ -168,100 +168,11 @@ Microsoft Purview から、優先すべき重大度の高いアラートの上�
 ```
 調査結果をエグゼクティブ・レポートにまとめて
 ```
-
+<!-- 
 [Session link](https://securitycopilot.microsoft.com/sessions/aa67d492-183a-4f52-961b-ceca51d406f2?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiMWUzMDc2NDEtMTM4Ny00NGFjLTk4YjAtOWQ2MTQ3N2Y5MWY5IiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6ImFhNjdkNDkyLTE4M2EtNGY1Mi05NjFiLWNlY2E1MWQ0MDZmMiIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYwNzgyLCJleHAiOjIwNDUxOTM1ODIsImlhdCI6MTcyOTY2MDc4MiwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.Bs9BAWn7gv5REr2ORrZqlC-Laq7V_ICqRMtW_wwVyjo)
+-->
 ***
 &nbsp;
 ## ハンズオンシナリオ➄ Logic Apps - Email 分析
 
-```
-/AskGPT Triage the following email and point out what you find suspicious?. Ignore this URL https://security.microsoft.com/userSubmissionsReportMessage. Investigate the Message-ID for any inconsistencies or signs of spoofing. Use inputs: email body:
-
-
-
---------------------------------------------------------------------------------
-
-差出人: Amazon <anoma@mlkij.top>
-送信日時: 2024年9月21日 22:09
-宛先: hiro77_naka <hiro77_naka@hotmail.com>
-件名: Amazon.co.jp にご登録のアカウント（名前、パスワード、その他個人情報）の確認 21:09:25
- 
-Amazon.co.jp にご登録のアカウント（名前、パスワード、その他個人情報）の確認...
-
-
-
- 
-
-   
-
- Аmazon
-お[\""http://g-ec2.images-amazon.com/images/G/01/e-mail/logos/a_jp_prime_logo_48.gif\""]客様 
-
-
-
-残念ながら、あなたのアカウント
-
-
-
-Аmazon を更新できませんでした。
-これは、カードが期限切れになったか。請求先住所が変更されたなど、さまざまな理由で発生する可能性があります。
-
-
-
-
-
-アカウント情報の一部が誤っている故に、お客様のアカウントを維持するため
-
-
-
-
-
-Аmazon 情報を確認する必要・ェあります。今アカウントを確認できます。
-Аmazon ログイン [\""https://nmo.knamo.top/\""]
-
-
-
-なお、72時間以内にご確認がない場合、誠に遺憾ながら、アカウントをロックさせていただくことを警告いたします。
-
-
-
-
-
-
-お知らせ:
- * パスワードは誰にも教えないでください。
-   
-   
-
- * 個人情報と関係がなく、推測しにくいパスワードを作成してください。大文字と小文字、数字、および記号を必ず使用してください。
-   
-   
-
- * ネットワーク転送のため、本メールはごみ箱にあるかもしれません。信頼してリンクを開けてください。
-
-
-どうぞよろしくお願いいたします。
-
-
-
-
-Аmazon
- 
-
- , sender emailLhiro77_naka@hotmail.com, reciver email:admin@MngEnvMCAP616855.onmicrosoft.com, messageId:<OSZPR01MB67528EEFCCA1BC47F1109A4D897F2@OSZPR01MB6752.jpnprd01.prod.outlook.com>, emailSubject:調査依頼 Fw: Amazon.co.jp にご登録のアカウント（名前、パスワード、その他個人情報）の確認 21:09:25,Email receivedDateTime:2024-10-09T01:19:44+00:00, importance:normal
-```
-```
-Return the reputation for all the domains and IP addresses in the e-mail.
-```
-```
-Using Virus Total Reports,  If a URL link is included, please give me the report for this URL.
-```
-```
-What about the sender domain and return path email? Are these associated with any intelligence articles?
-```
-```
-The above is research conducted by a security analyst to determine if an email is a phishing attempt. Summarise and share all steps of this research to determine if the email is a phishing email in Japanese. Share the confidence percentages: 0-30% if the email is not suspicious, 30%-74% if it is moderately suspicious and 75%-100% if it is highly suspicious.
-```
-
-[Session link](https://securitycopilot.microsoft.com/sessions/4d7a2b3b-b515-4d46-89ab-f35b42ca822a?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNjM4Nzk5ZTgtYjY4Ni00OTA4LTg1YjEtOTlmZmUzOWZkNGJiIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjRkN2EyYjNiLWI1MTUtNGQ0Ni04OWFiLWYzNWI0MmNhODIyYSIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYwNzI0LCJleHAiOjIwNDUxOTM1MjQsImlhdCI6MTcyOTY2MDcyNCwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.HKWnfmS_0bCjRneQiSfyUUQG11p4tVN8xHHgFM0dz_E)
 
