@@ -147,6 +147,9 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 このユーザーは過去30日間にサインインに失敗したことがありますか？ 
 ```
 ```
+Did the above user have any failed sign-ins the last 30 days? if yes, list the location and IP Address of each failed sign-attempt.
+```
+```
 Purviewを使用して、このユーザーの活動を挙げてください。
 ```
 ```
