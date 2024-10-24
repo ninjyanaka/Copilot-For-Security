@@ -262,4 +262,15 @@ Amazon.co.jp にご登録のアカウント（名前、パスワード、その�
 
  , sender emailLhiro77_naka@hotmail.com, reciver email:admin@MngEnvMCAP616855.onmicrosoft.com, messageId:<OSZPR01MB67528EEFCCA1BC47F1109A4D897F2@OSZPR01MB6752.jpnprd01.prod.outlook.com>, emailSubject:調査依頼 Fw: Amazon.co.jp にご登録のアカウント（名前、パスワード、その他個人情報）の確認 21:09:25,Email receivedDateTime:2024-10-09T01:19:44+00:00, importance:normal
 ```
-
+```
+elaborate more on the entities?
+```
+```
+Using MDTI, Return the reputation for all the domains and IP addresses in the e-mail.
+```
+```
+Using Virus Total Reports,  If a URL link is included, please give me the report for this URL.
+```
+```
+The above is research conducted by a security analyst to determine if an email is a phishing attempt. Summaries and share all steps of this research to determine if the email is a phishing email in Japanese. Share the confidence percentages: 0-30% if the email is not suspicious, 30%-74% if it is moderately suspicious and 75%-100% if it is highly suspicious.
+```
