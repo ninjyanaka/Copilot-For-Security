@@ -184,7 +184,7 @@ Microsoft Purview から、優先すべき重大度の高いアラートの上�
 ***
 &nbsp;
 ## ハンズオンシナリオ➄ Logic Apps - Email 分析
-
+<!--
 
 ```
 /AskGPT Triage the following email and point out what you find suspicious?. Ignore this URL https://security.microsoft.com/userSubmissionsReportMessage. Investigate the Message-ID for any inconsistencies or signs of spoofing. Use inputs: email body:
@@ -274,3 +274,4 @@ Using Virus Total Reports,  If a URL link is included, please give me the report
 ```
 The above is research conducted by a security analyst to determine if an email is a phishing attempt. Summaries and share all steps of this research to determine if the email is a phishing email in Japanese. Share the confidence percentages: 0-30% if the email is not suspicious, 30%-74% if it is moderately suspicious and 75%-100% if it is highly suspicious.
 ```
+-->
