@@ -9,7 +9,7 @@
 Microsoft Defender XDRから、優先すべき重大度の高いインシデントの上位5件を教えて
  ```
  ```
-Defender XDR インシデント <DEFENDER_INCIDENT_ID> について教えて
+Defender XDR インシデント <DEFENDER_INCIDENT_ID> を要約して
  ```
  ```
 該当のインシデントに関連するエンティティを教えて
@@ -45,9 +45,19 @@ MDTIを使用して、IPアドレス、URLとファイルのハッシュを検�
 ## Microsoft Sentinel
 
  ```
-Sentinel のインシデント <SENTINEL_INCIDENT_ID>について教えて
+Sentinel のインシデント <SENTINEL_INCIDENT_ID> を要約して
+ ```
+ ```
+この Sentinelのインシデントに関連するエンティティを教えて
  ```
 
+ ```
+MDTIを使用して、IPアドレス、URLとファイルのハッシュを検証し、レピュテーションを評価して
+ ```
+
+ ```
+この調査を要約したエグゼクティブレポートを作成すること。技術的でない読者向けに作成すること
+ ```
 
 
 &nbsp;
