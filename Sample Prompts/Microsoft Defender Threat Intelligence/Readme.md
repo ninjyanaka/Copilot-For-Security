@@ -34,14 +34,12 @@ CVE-XXXX-XXXXに関連する Exploit code は公開されていますか？
 脆弱性、脅威アクターの洞察、および技術的知識が少ない方向けの推奨事項についてのエグゼクティブサマリーレポートを作成して
 ```
 
-## KQL Queries and Log Analysis
-```
-Microsoft Defenderの<Evilproxy>フィッシング攻撃から関連する公開IOCを検索するKQLの作成について教えてください。ドメイン、IPアドレス、ファイルハッシュのリストから検索できるようにし、アラートエビデンスからも検索できるようにしたいです。
-```
 ## Hardening and Prevention
+
 ```
-これらの攻撃を防ぐために、どのように環境を強化すればよいですか？
+このCVEから組織を守るためには、どのような緩和策を講じることができますか
 ```
+
 ## Indicators of Compromise (IOCs) and Tactics, Techniques, and Procedures (TTPs)
 ```
 Social Media Accounts <T1585.001>の脅威情報記事を要約する
