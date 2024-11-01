@@ -21,8 +21,11 @@ NL2KQL for Defender XDR を使用して、マルウェアの脅威に関連す�
 ```
 NL2KQL for Defender XDR を使用して、過去１週間、ネットワーク接続障害の多かった上位5台のデバイスを表示してください。デバイス名、OSも含む
 ```
+```
 
-* Defender に特化したKQLを希望する場合には、”NL2KQL for Defender を使用して、” をプロンプトの先頭に挿入すると効果的です。
+```
+
+* Defender に特化したKQLを希望する場合には、”NL2KQL for Defender XDR を使用して、” をプロンプトの先頭に挿入すると効果的です。
 
 
 ## Sentinel 
@@ -35,12 +38,19 @@ NL2KQL for Defender XDR を使用して、過去１週間、ネットワーク�
 表示 = アラート名と危険度と件数のみ
 ```
 ```
+NL2KQL for Sentinel を使用して、異常な場所からのログインや、普段使用しないデバイスやIPアドレスからのログインを調べて
 ```
 ```
+NL2KQL for Sentinel を使用して、異常なファイル共有アクセスや不正なリモートデスクトップアクセスを調べて
 ```
 ```
+NL2KQL for Sentinel を使用して、攻撃者が権限昇格やバックドア設置のために行う、レジストリキーやシステムファイルの改変の動作が行われた調べて
 ```
 ```
+NL2KQL for Sentinel を使用して、特定のポートに対して短時間で多くのリクエストが発生しているデバイスを調べて
 ```
 ```
+NL2KQL for Sentinel を使用して、Malicious URLをクリックしたユーザーを教えて
 ```
+
+* Sentinel に特化したKQLを希望する場合には、”NL2KQL for Defender XDR を使用して、” 、もしくは、”Microsoft Sentinel用の適切なKQLクエリを生成して”の文言をプロンプトの先頭に挿入すると効果的です。
