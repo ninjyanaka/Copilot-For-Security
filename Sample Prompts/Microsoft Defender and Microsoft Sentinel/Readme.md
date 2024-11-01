@@ -9,7 +9,7 @@
 Microsoft Defender XDRから、優先すべき重大度の高いインシデントの上位5件を教えて
  ```
  ```
-Defender Incident <DEFENDER_INCIDENT_ID>について教えて
+Defender インシデント <DEFENDER_INCIDENT_ID>について教えて
  ```
  ```
 該当のインシデントのエンティティについて教えて
