@@ -15,11 +15,23 @@ https://securitycopilot.microsoft.com/
 &nbsp;
 ## ハンズオンシナリオ➁ インシデント分析編
 
+例1
 ```
 Microsoft Defender XDRから、優先すべき重大度の高いインシデントの Top 5 を教えて
 ```
 ```
 Defender インシデント 79 について日本語で教えて
+```
+```
+このインシデントを解決するためのアクションプランを教えて
+```
+```
+このインシデントから得られた主な洞察をまとめたエグゼクティブレポートを作成してください。レポートに続いて、特定されたリスクに対処するために修正が必要な主な領域を箇条書きでリストアップしてください。最後に、これらの懸念事項に対処するための緩和策の概要を説明してください。
+```
+
+例2
+```
+Defender インシデント 70 について日本語で教えて
 ```
 ```
 このインシデントに関連するすべてのエンティティを特定し、抽出して
@@ -93,6 +105,12 @@ Query:A社利用のSW一覧 FileNames: AnswerInstructions:該当の脆弱性の�
  ```
 私はセキュリティエンジニアです。攻撃アクターグループ Midnight Blizzard について教えて
  ```
+
+ ```
+最新のIoC情報を教えて
+ ```
+
+[Session link](https://securitycopilot.microsoft.com/sessions/04590be0-5ee9-4bbb-8a64-07f6f983b297?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiODllMDYwMTEtNTNlNS00YmY0LWI0ODEtZTc4MWFlNTQ4NGM4Iiwib2lkIjoiMTM5ZTUyMDYtMTFiZS00NjA4LThlYzktMDczODk1NjQ5Y2VmIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjA0NTkwYmUwLTVlZTktNGJiYi04YTY0LTA3ZjZmOTgzYjI5NyIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzMxMjc3NzM3LCJleHAiOjIwNDY4MTA1MzcsImlhdCI6MTczMTI3NzczNywiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.tuqes09u1YJC6KTxVj3ZR67I-Op78wEzcIprbk8gdvQ)
 
 ***
 &nbsp;
