@@ -14,6 +14,8 @@ https://securitycopilot.microsoft.com/
 ドキュメントサイト：
 [Copilot for Security](https://securitycopilot.microsoft.com/)
 
+Github：
+[Copilot for Security](https://securitycopilot.microsoft.com/)
 
 ***
 &nbsp;
