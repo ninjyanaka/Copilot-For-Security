@@ -12,10 +12,10 @@ https://securitycopilot.microsoft.com/
 [Microsoft Purview Portal](https://purview.microsoft.com/)
 
 ドキュメントサイト：
-[Copilot for Security](https://securitycopilot.microsoft.com/)
+[Copilot for Security](https://learn.microsoft.com/ja-jp/copilot/security/)
 
 Github：
-[Copilot for Security](https://securitycopilot.microsoft.com/)
+[Copilot for Security](https://github.com/Azure/Copilot-For-Security)
 
 ***
 &nbsp;
