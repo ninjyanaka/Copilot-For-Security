@@ -11,6 +11,10 @@ https://securitycopilot.microsoft.com/
 &nbsp;
 [Microsoft Purview Portal](https://purview.microsoft.com/)
 
+ドキュメントサイト：
+[Copilot for Security](https://securitycopilot.microsoft.com/)
+
+
 ***
 &nbsp;
 ## ハンズオンシナリオ➁ インシデント分析編
