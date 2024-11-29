@@ -10,6 +10,8 @@ https://securitycopilot.microsoft.com/
 [Microsoft Defender XDR Portal](https://security.microsoft.com/)
 &nbsp;
 [Microsoft Purview Portal](https://purview.microsoft.com/)
+&nbsp;
+[本日の資料](https://livesend.microsoft.com/i/CsvQyuCoFtM43uTUGr7armKzd6y3Q2LN4ZZPLUSSIGNWHgVIB1wILQ9wiaxuFrLhAzNNRb2V4les7hWUol49znccjs9J___14EnKBRUDavPwyL0BMFjgyMEkGHJ8___WBZgxhz84St___)
 
 ***
 &nbsp;
