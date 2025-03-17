@@ -21,10 +21,10 @@ https://securitycopilot.microsoft.com/
 Microsoft Defender XDRから、優先すべき重大度の高いインシデントの Top 5 を教えて
 ```
 ```
-Defender XDR インシデント 70 について教えて
+Defender インシデント 4078 について教えて
 ```
 ```
-Defender XDR インシデント 70 について300文字で日本語で要約して
+Defender インシデント 4078 について300文字で日本語で要約して
 ```
 ```
 このインシデントに関連するすべてのエンティティを特定し、抽出して
