@@ -70,7 +70,7 @@ Microsoft User Analysis (Japanese)
 2. Start new session
 3.  以下のUPNを入力して、送信
 ```
-u3775@ash.alpineskihouse.co　を入力して、送信
+u3775@ash.alpineskihouse.co
 ```
 <!--
 [Session link]()
