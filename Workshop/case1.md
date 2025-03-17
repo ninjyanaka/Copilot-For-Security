@@ -138,12 +138,12 @@ CVE-2024-47176 について、および技術的な知識があまりない人�
 [Session link]()
 -->
 
-その３
+その３　脅威アクター
  ```
 私はセキュリティエンジニアです。攻撃アクターグループ Midnight Blizzard について教えて
  ```
 
-その４
+その４　Threat　Exposure　Report
  ```
 Give me an overview of the latest threats targeting my organization in Japanese.
  ```
