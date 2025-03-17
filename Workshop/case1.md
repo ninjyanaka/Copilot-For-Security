@@ -5,13 +5,12 @@
 https://securitycopilot.microsoft.com/
 
 ポータルサイト一覧：
-[Copilot for Security](https://securitycopilot.microsoft.com/)
+[Security Copilot](https://securitycopilot.microsoft.com/)
 &nbsp;
 [Microsoft Defender XDR Portal](https://security.microsoft.com/)
 &nbsp;
 [Microsoft Purview Portal](https://purview.microsoft.com/)
 &nbsp;
-[本日の資料](https://livesend.microsoft.com/i/CsvQyuCoFtM43uTUGr7armKzd6y3Q2LN4ZZPLUSSIGNWHgVIB1wILQ9wiaxuFrLhAzNNRb2V4les7hWUol49znccjs9J___14EnKBRUDavPwyL0BMFjgyMEkGHJ8___WBZgxhz84St___)
 
 ***
 &nbsp;
@@ -153,6 +152,14 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 1時間以内に20回以上ログインに失敗し、その後ログインに成功した際にアラートを送信するMicrosoft Sentinel Analyticsルールを作成するために使用できるKQLクエリを生成します。また、Analyticsルールの作成方法についても指示してください。
 ```
 
+```
+Microsoft Sentinel用の適切なKQLクエリを生成するには、以下の情報を使用します。
+
+テーブル = SecurityAlert
+時間/日付の範囲 = 3日間
+クエリ = 最も深刻なアラートの上位数と、データに表示される回数
+表示 = アラート名と表示回数のみ
+```
 ***
 &nbsp;
 
