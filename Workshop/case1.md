@@ -143,32 +143,14 @@ CVE-2024-47176 について、および技術的な知識があまりない人�
 
 ***
 &nbsp;
-## ハンズオンシナリオ➂　ナレッジベース（Azure AI Search、ファイル）
-
-ファイル
-```
-CVE-2024-3400について教えて
-```
- ```
-Query:A社利用のSW一覧 FileNames: AnswerInstructions:該当の脆弱性の対象のソフトウェアは含まれていますか？
- ```
-
-AI Search
-```
-Azure AI Search を使用して、インシデントの対応手順を教えて
-```
-```
-Azure AI Search を使用して、どのようなタイプのウィルスがあるか教えて
-```
-<!--
-[Session link](https://securitycopilot.microsoft.com/sessions/daca16ce-ef6b-417a-9430-10774a64be32?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiMDAxNmZkYjMtYThkZi00ZWIwLWFhNzUtMjhiMjAwMTFkNTc3IiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6ImRhY2ExNmNlLWVmNmItNDE3YS05NDMwLTEwNzc0YTY0YmUzMiIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYwOTkxLCJleHAiOjIwNDUxOTM3OTEsImlhdCI6MTcyOTY2MDk5MSwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.SG0bSNbJGHdKjVcuCd1wGgS3rpLiRkjTpGf7u88ENDA)
--->
-***
-&nbsp;
 ## ハンズオンシナリオ➂　アドバンスドハンティング　KQL
 
 ```
 NL2KQL for Defender を使用して、エンドポイントからIPv4アドレスの 101.35.198.64 への通信教えて
+```
+
+```
+
 ```
 
 ***
@@ -179,22 +161,16 @@ NL2KQL for Defender を使用して、エンドポイントからIPv4アドレ�
 ## ハンズオンシナリオ➃　Entra
 
 ```
-ユーザー test01@MngEnvMCAP616855.onmicrosoft.com について教えて
+この48時間以内にMFAに失敗したユーザーはいましたか？
 ```
 ```
-このユーザーに関連付けられているデバイスは何ですか？
+ユーザーu4214について教えて
 ```
 ```
-このユーザーに対してどのような認証方法が有効になっていますか？
+ユーザーu4214の過去48時間の失敗したサインインの数と理由を教えてください。
 ```
 ```
 このユーザーのIdentity Summaryを見せて
-```
-```
-NL2KQL for Sentinel を使用して,SigninLogsから "UPN" のSign-in ログ見せて
-```
-```
-Purviewを使用して、このユーザーの活動を教えて
 ```
 ```
 潜在的なリスクのあるユーザーに関する洞察をまとめたエグゼクティブレポートを作成します。まず、ユーザーのメタデータの詳細から始めます。これには、ユーザーのユーザー・プリンシパル名（UPN）、疑わしい国、設定された認証方法、日本語で記録されたログイン試行の失敗などが含まれます。次に、特定されたリスクに対処するために修正が必要な主な領域を箇条書きで示します。その後、日本語で、強調された懸念事項を改善するための緩和策を説明した一貫性のある段落を作成します
