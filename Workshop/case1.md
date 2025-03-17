@@ -183,7 +183,7 @@ Microsoft Sentinel用の適切なKQLクエリを生成するには、以下の�
 潜在的なリスクのあるユーザーに関する洞察をまとめたエグゼクティブレポートを作成します。まず、ユーザーのメタデータの詳細から始めます。これには、ユーザーのユーザー・プリンシパル名（UPN）、疑わしい国、設定された認証方法、日本語で記録されたログイン試行の失敗などが含まれます。次に、特定されたリスクに対処するために修正が必要な主な領域を箇条書きで示します。その後、日本語で、強調された懸念事項を改善するための緩和策を説明した一貫性のある段落を作成します
 ```
 <!--
-[Session link](https://securitycopilot.microsoft.com/sessions/42640117-6a57-454d-b448-ae044d8d33d7?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNDU4MzIwZTEtYWRmYS00N2JlLWJiOTMtNjlmOTg2NDcwOTAyIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjQyNjQwMTE3LTZhNTctNDU0ZC1iNDQ4LWFlMDQ0ZDhkMzNkNyIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYxOTA0LCJleHAiOjIwNDUxOTQ3MDQsImlhdCI6MTcyOTY2MTkwNCwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.eKOXsBiQlk2-bdwnFwkqEvuEN8SdtLTlJ_l6VJSAnEw)
+[Session link]()
 -->
 ***
 &nbsp;
@@ -193,7 +193,13 @@ Microsoft Sentinel用の適切なKQLクエリを生成するには、以下の�
 Microsoft Purview から、優先すべき重大度の高いアラートの上位5件を教えて
 ```
 ```
-アラートID　dl13063524-3948-d713-2a00-08dcbd250086　について教えて
+アラートID　dlda7618d0-35a6-71b8-9200-08dd5767802a　について要約して
+```
+```
+関連するユーザーについて教えて
+```
+```
+ユーザー<irvins@vnevado.alpineskihouse.co> に関連するデータ損失リスクの概要を日本語で作成して
 ```
 ```
 調査結果をエグゼクティブ・レポートにまとめて
