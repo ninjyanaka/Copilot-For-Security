@@ -143,6 +143,12 @@ CVE-2024-47176 について、および技術的な知識があまりない人�
 私はセキュリティエンジニアです。攻撃アクターグループ Midnight Blizzard について教えて
  ```
 
+その４
+ ```
+Give me an overview of the latest threats targeting my organization in Japanese.
+ ```
+
+
 ***
 &nbsp;
 ## ハンズオンシナリオ➂　アドバンスドハンティング　KQL
