@@ -21,19 +21,28 @@ https://securitycopilot.microsoft.com/
 Microsoft Defender XDRから、優先すべき重大度の高いインシデントの Top 5 を教えて
 ```
 ```
-Defender インシデント 4078 について教えて
+Defender インシデント 5176 について教えて
 ```
 ```
-Defender インシデント 4078 について300文字で日本語で要約して
+Defender インシデント 5176 について300文字で日本語で要約して
 ```
 ```
-このインシデントに関連するすべてのエンティティを特定し、抽出して
+Defender インシデント 5176 に関連するエンティティを特定し、抽出して
 ```
 ```
-MDTIを使用して、IPアドレス、URLとファイルのハッシュを検証し、レピュテーションを評価して
+MDTI を使用して、IPアドレス 140.82.112.3 のレピュテーションを評価して
 ```
 ```
-VirusTotal を使用して、このIPアドレス 101.35.198.64 のレピュテーションスコアを教えて
+Shodan InternetDB を使用して、IPアドレス 140.82.112.3 のレピュテーションを評価して
+```
+```
+Defeder XDRを使用して、このインシデントに関連するデバイスvnevado-win11tについて教えて
+```
+```
+ユーザLynne Robbinsについて教えて
+```
+```
+Defender XDR を使用して、このインシデントに関連するファイルmimikatz.exeについて要約して
 ```
 ```
 このインシデントを解決するためのアクションプランを教えて
@@ -41,8 +50,17 @@ VirusTotal を使用して、このIPアドレス 101.35.198.64 のレピュテ�
 ```
 このインシデントから得られた主な洞察をまとめたエグゼクティブレポートを作成してください。レポートに続いて、特定されたリスクに対処するために修正が必要な主な領域を箇条書きでリストアップしてください。最後に、これらの懸念事項に対処するための緩和策の概要を説明してください。
 ```
+
+プロンプトブックを使用してみよう！
+1. プロンプトブックライブラリに移動し、以下のプロンプトブックを検索します。
+```
+Microsoft 365 Defender incident investigation.（Japanese)
+```
+2. Start new session
+3. 5176 を入力して、
+
 <!--
-[Session link](https://securitycopilot.microsoft.com/sessions/cf3e1f76-9b48-4f3f-bae7-62bf60673b53?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiMTU3ZjkzMDItYTY4MC00NzczLWFiN2EtOWQ4OTcyNDY1M2ViIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6ImNmM2UxZjc2LTliNDgtNGYzZi1iYWU3LTYyYmY2MDY3M2I1MyIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYxOTg2LCJleHAiOjIwNDUxOTQ3ODYsImlhdCI6MTcyOTY2MTk4NiwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.12AlcahmELWfdooT9zJ8laDLKfq6Z2jSxXBz-1xCmKo)
+[Session link]()
 -->
 
 ***
@@ -60,7 +78,7 @@ MDTIを使用して、検出されたIPアドレスまたはドメイン、ホ�
 この分析結果を要約してエグゼクティブレポートを作成する。スクリプトの評価から始める。評価に対する信頼性と裏付けとなる証拠を含める。その下に、「スクリプトの概要」、「脅威インテリジェンス」、「対応の提案」の各セクションを設ける。技術的でない読者にも適した内容にする
 ```
 <!--
-[Session link](https://securitycopilot.microsoft.com/sessions/7fd4c1dc-ed79-4744-b255-8fae70757085?st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTZXNzaW9uTGlua1NoYXJpbmdTdWJqZWN0IiwibmFtZWlkIjoiNzViZTE4MWEtYzE1NS00YTc4LWIyMjAtYmMxOTNjZDg5Mjg1Iiwib2lkIjoiNGI0OGE3MWItZTBlNi00MWEwLTk2NDUtYWNmYmZiZDIyOWIwIiwidGlkIjoiNWE4NjUxYzQtYzYyZi00MWJkLWFjMDAtYzJjMzJlYzdhZTQ2Iiwicm9sZSI6InZpZXdlciIsInNjcCI6IjdmZDRjMWRjLWVkNzktNDc0NC1iMjU1LThmYWU3MDc1NzA4NSIsInJvbGVzIjoiU2Vzc2lvbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2Fub255bW91cyI6IkZhbHNlIiwibmJmIjoxNzI5NjYwMjc4LCJleHAiOjIwNDUxOTMwNzgsImlhdCI6MTcyOTY2MDI3OCwiaXNzIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIiwiYXVkIjoiYmIzZDY4YzItZDA5ZS00NDU1LTk0YTAtZTMyMzk5NmRiYWEzIn0.xotnp07qH2ltTEQF2oIo6DbNe68W_jLw6XzOTcFDx-g)
+[Session link]()
 -->
 &nbsp;
 ***
@@ -69,7 +87,7 @@ MDTIを使用して、検出されたIPアドレスまたはドメイン、ホ�
 
 その１
 ```
-過去1ヶ月間で、私の組織を標的とした最新の脅威の概要を日本語で教えて
+先週どのような脅威インテリジェンス記事が公開されましたか?
  ```
 ```
 CVE-2024-47176 について、および技術的な知識があまりない人向けの内容で教えて
