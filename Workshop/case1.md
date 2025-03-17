@@ -11,9 +11,15 @@ https://securitycopilot.microsoft.com/
 &nbsp;
 [Microsoft Purview Portal](https://purview.microsoft.com/)
 &nbsp;
-
 ***
 &nbsp;
+
+
+## ハンズオンシナリオ➀ Security Copilotとは？
+```
+
+```
+
 ## ハンズオンシナリオ➁ インシデント分析編
 
 ```
@@ -185,9 +191,20 @@ Microsoft Sentinel用の適切なKQLクエリを生成するには、以下の�
 <!--
 [Session link]()
 -->
+
 ***
 &nbsp;
-## ハンズオンシナリオ➃　Purview
+## ハンズオンシナリオ➅　Intune
+```
+最近のIntuneデバイス・コンプライアンス・レポートを分析し、重大なコンプライアンス違反の傾向を強調表示します。
+```
+```
+Intuneによると、今週何台のデバイスが登録されたか？
+```
+
+***
+&nbsp;
+## ハンズオンシナリオ➆　Purview
 
 ```
 Microsoft Purview から、優先すべき重大度の高いアラートの上位5件を教えて
