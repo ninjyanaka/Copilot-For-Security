@@ -58,14 +58,20 @@ Defenderインシデント分析：
 1. プロンプトブックライブラリに移動し、以下のプロンプトブックを検索します。検索バーで”Japanese"と入力
 Microsoft 365 Defender incident investigation.（Japanese)
 2. Start new session　を選択
-3. 5176 を入力して、送信
+3. 以下のインシデント番号を入力して、送信
+```
+5176
+```
+
 
 ユーザー分析：
 1. プロンプトブックライブラリに移動し、以下のプロンプトブックを検索します。検索バーで”Japanese"と入力
 Microsoft User Analysis (Japanese)
 2. Start new session
-3.  u3775@ash.alpineskihouse.co　を入力して、送信
-
+3.  以下のUPNを入力して、送信
+```
+u3775@ash.alpineskihouse.co　を入力して、送信
+```
 <!--
 [Session link]()
 -->
