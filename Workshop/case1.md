@@ -17,7 +17,7 @@ https://securitycopilot.microsoft.com/
 
 ## ハンズオンシナリオ➀ Security Copilotとは？
 ```
-
+Security Copilotはどのように役立ちますか
 ```
 
 ## ハンズオンシナリオ➁ インシデント分析編
